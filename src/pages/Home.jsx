@@ -21,7 +21,7 @@ export default function Home() {
             title="NHS Leaderboard App"
             desc="Role-based React + Firebase app to manage hours, events, and year-end reporting."
             tags={["React", "Firebase", "Auth", "Firestore"]}
-            link="#"
+            link="https://github.com/Manas-Parasar/NHS-Service-Hours-Leaderboard"
           />
         </div>
       </Section>

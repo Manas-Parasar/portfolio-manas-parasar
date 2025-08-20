@@ -69,7 +69,7 @@ export default function Leadership() {
           />
           <TimelineItem
             org="Teaching Assistant"
-            role="Teacher's Assistant"
+            role="TA"
             period="2022–2025"
             points={[
               "Helped students with coursework",

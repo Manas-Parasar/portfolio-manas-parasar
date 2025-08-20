@@ -7,6 +7,7 @@ export default function Projects() {
       title: "NHS Leaderboard App",
       desc: "Full-stack React + Firebase app with role-based dashboards, Google OAuth, and Firestore.",
       tags: ["React", "Firebase", "Auth", "UX"],
+      link: "https://github.com/Manas-Parasar/NHS-Service-Hours-Leaderboard",
     },
   ];
 
@@ -22,6 +23,7 @@ export default function Projects() {
             title={p.title}
             desc={p.desc}
             tags={p.tags}
+            link={p.link}
           />
         ))}
       </div>
