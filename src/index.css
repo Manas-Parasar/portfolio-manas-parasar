@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Subtle selection & scrollbar tweaks */
+::selection {
+  background: #6366f1;
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 999px;
+}
+
+/* Reusable utilities */
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-xl;
+  }
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-2xl px-5 py-2 font-medium transition;
+  }
+  .btn-primary {
+    @apply btn bg-brand-600 hover:bg-brand-500 text-white;
+  }
+  .btn-ghost {
+    @apply btn glass hover:bg-white/10;
+  }
+  .headline {
+    @apply text-4xl md:text-5xl font-extrabold tracking-tight;
+  }
+  .subtle {
+    @apply text-slate-300/90;
+  }
+}

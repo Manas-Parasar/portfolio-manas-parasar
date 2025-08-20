@@ -1,0 +1,22 @@
+/* Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global styles */
+body {
+  font-family: "Inter", sans-serif; /* Tailwind default uses sans-serif */
+  background-color: #f9f9f9; /* Light gray background for all pages */
+  color: #111827; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional custom classes */
+.btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition;
+}
+
+.container {
+  @apply max-w-5xl mx-auto p-4;
+}
