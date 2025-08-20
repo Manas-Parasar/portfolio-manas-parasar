@@ -7,6 +7,7 @@ export default function Navbar() {
   const nav = [
     { to: "/", label: "Home" },
     { to: "/about", label: "About" },
+    { to: "/education", label: "Education" },
     { to: "/projects", label: "Projects" },
     { to: "/leadership", label: "Leadership" },
     { to: "/contact", label: "Contact" },

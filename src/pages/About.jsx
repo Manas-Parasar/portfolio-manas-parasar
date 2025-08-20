@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="grid md:grid-cols-5 gap-8">
-      <div className="md:col-span-2 glass rounded-3xl p-6">
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="md:col-span-1 glass rounded-3xl p-6">
         <img
           src="/src/assets/headshot.jpg"
           alt="Portrait"
@@ -9,8 +9,15 @@ export default function About() {
         />
         <h2 className="text-2xl font-bold mt-4">Manas Parasar</h2>
         <p className="subtle">Leader • Developer • Problem‑solver</p>
+        <a
+          href="#" // Placeholder link
+          download="Manas_Parasar_Resume.pdf"
+          className="mt-4 inline-block bg-brand-500 hover:bg-brand-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
+        >
+          Download Resume
+        </a>
       </div>
-      <div className="md:col-span-3 space-y-6">
+      <div className="md:col-span-2 space-y-6">
         <div className="glass rounded-3xl p-6">
           <h3 className="font-semibold mb-2">About</h3>
           <p className="subtle">
@@ -18,15 +25,6 @@ export default function About() {
             expanding my knowledge in vast areas of study, and leading through
             service and innovation.
           </p>
-        </div>
-        <div className="glass rounded-3xl p-6">
-          <h3 className="font-semibold mb-2">Academics & Scores</h3>
-          <ul className="subtle list-disc list-inside space-y-1">
-            <li>Digital SAT: 1530 (770 Math, 760 English)</li>
-            <li>ACT: 35 (36 Math/Science/English, 33 Reading)</li>
-            <li>GPA: 4.00 (Unweighted)</li>
-            <li>Graduating with Associate's in Computer Science</li>
-          </ul>
         </div>
         <div className="glass rounded-3xl p-6">
           <h3 className="font-semibold mb-2">Leadership & Service</h3>
