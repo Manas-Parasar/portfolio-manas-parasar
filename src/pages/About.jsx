@@ -40,32 +40,6 @@ export default function About() {
             <li>Library: Shelver, Trainer, Computer Tutor</li>
           </ul>
         </div>
-        <div className="glass rounded-3xl p-6">
-          <h3 className="font-semibold mb-2">Skills</h3>
-          <div className="flex flex-wrap gap-2">
-            {[
-              "Java",
-              "React",
-              "Python",
-              "Firebase",
-              "Tailwind",
-              "Git",
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "C++",
-              "LISP",
-              "Prolog",
-            ].map((s) => (
-              <span
-                key={s}
-                className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs"
-              >
-                {s}
-              </span>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
