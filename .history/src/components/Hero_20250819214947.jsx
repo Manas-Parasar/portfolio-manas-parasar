@@ -18,9 +18,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="mt-4 text-lg subtle max-w-3xl"
         >
-          I’m Manas Parasar, a passionate student developer, leader, and
-          problem‑solver. Explore projects, leadership, and research shaped by
-          impact.
+          I’m Manas Parasar: student developer, leader, and problem‑solver.
+          Explore projects, leadership, and research shaped by impact.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
