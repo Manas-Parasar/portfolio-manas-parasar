@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: #0f172a; /* slate-900 */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0f172a; /* slate-900 */
+}
+
 /* Subtle selection & scrollbar tweaks */
 ::selection {
   background: #6366f1;
