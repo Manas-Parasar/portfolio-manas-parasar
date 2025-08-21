@@ -51,7 +51,7 @@ export default function Home() {
             <a
               key={c.title}
               href="/leadership"
-              className="glass rounded-3xl p-5 block"
+              className="glass rounded-3xl p-5 block hover:shadow-glow transition"
             >
               {c.title === "NHS President" && <FaAward className="text-4xl mb-2 text-yellow-500" />}
               {c.title === "Library Computer Tutor" && <FaLaptopCode className="text-4xl mb-2 text-blue-500" />}

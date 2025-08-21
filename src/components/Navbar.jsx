@@ -21,8 +21,8 @@ export default function Navbar() {
             to={n.to}
             onClick={onClick}
             className={({ isActive }) =>
-              `transition hover:text-white ${
-                isActive ? "text-white" : "text-slate-300"
+              `transition hover:text-brand-400 ${
+                isActive ? "text-brand-400" : "text-slate-300"
               }`
             }
           >
@@ -36,7 +36,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50">
       <div className="container mt-4">
-        <div className="glass rounded-2xl px-5 py-3 flex items-center justify-between">
+        <div className="glass rounded-2xl px-5 py-3 flex items-center justify-between hover:shadow-glow transition">
           <Link to="/" className="font-black tracking-tight text-lg">
             <span className="text-brand-400">&lt;/&gt;</span> Manas Parasar
           </Link>

@@ -16,7 +16,7 @@ export default function ProjectCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="group glass rounded-3xl overflow-hidden grid md:grid-cols-3"
+      className="group glass rounded-3xl overflow-hidden grid md:grid-cols-3 hover:shadow-glow transition"
     >
       <div className="md:col-span-1">
         <img
