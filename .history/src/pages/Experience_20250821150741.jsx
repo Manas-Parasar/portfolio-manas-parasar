@@ -143,6 +143,7 @@ export default function Experience() {
               "Promoted awareness of international humanitarian law",
               "Participated in community service projects",
               "Collaborated with peers on advocacy efforts",
+              "Enhanced understanding of human rights issues",
               "Encouraged empathy and compassion",
               "Promoted peace and conflict resolution",
               "Engaged in educational outreach and awareness campaigns",

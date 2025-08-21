@@ -40,7 +40,7 @@ export default function Contact() {
         </a>
         <a
           className="glass rounded-3xl p-6 hover:shadow-glow transition"
-          href="https://www.linkedin.com/in/manas-parasar-60188037b/"
+          href="https://www.linkedin.com/in/manas-parasar-60188037b/?trk=PROFILE_DROP_DOWN"
           target="_blank"
         >
           LinkedIn - Manas Parasar
