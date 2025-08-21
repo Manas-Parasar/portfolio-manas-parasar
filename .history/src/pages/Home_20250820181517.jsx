@@ -2,7 +2,6 @@ import Hero from "../components/Hero";
 import Section from "../components/Section";
 import ProjectCard from "../components/ProjectCard";
 import nhsLeaderboardScreenshot from "../assets/NHS Leaderboard Screenshot.png";
-import { FaAward, FaLaptopCode, FaTools } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -38,26 +37,33 @@ export default function Home() {
             {
               title: "NHS President",
               desc: "Led service initiatives, organized events, and introduced data-driven tracking.",
+              img: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1400&auto=format&fit=crop",
             },
             {
-              title: "Library Computer Tutor",
-              desc: "Provided technical support and assisted patrons with computer literacy.",
+              title: "Student Government Treasurer",
+              desc: "Managed budgets, fundraisers, and transparent reporting.",
+              img: "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1400&auto=format&fit=crop",
             },
             {
               title: "Engineering Club President",
               desc: "Prototyped devices, mentored members, and ran build nights.",
+              img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1400&auto=format&fit=crop",
             },
           ].map((c) => (
             <a
               key={c.title}
               href="/leadership"
-              className="glass rounded-3xl p-5 block"
+              className="group glass rounded-3xl overflow-hidden"
             >
-              {c.title === "NHS President" && <FaAward className="text-4xl mb-2 text-yellow-500" />}
-              {c.title === "Library Computer Tutor" && <FaLaptopCode className="text-4xl mb-2 text-blue-500" />}
-              {c.title === "Engineering Club President" && <FaTools className="text-4xl mb-2 text-gray-500" />}
-              <h3 className="font-semibold">{c.title}</h3>
-              <p className="subtle text-sm mt-1">{c.desc}</p>
+              <img
+                src={c.img}
+                alt=""
+                className="h-44 w-full object-cover group-hover:scale-105 transition"
+              />
+              <div className="p-5">
+                <h3 className="font-semibold">{c.title}</h3>
+                <p className="subtle text-sm mt-1">{c.desc}</p>
+              </div>
             </a>
           ))}
         </div>
