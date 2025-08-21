@@ -1,5 +1,5 @@
-import MyPortrait from "../assets/MyPortrait.png.png";
-const MyCV = "#"; // TODO: Replace with actual CV import when available
+import MyPortrait from "../assets/MyPortrait.png";
+import MyCV from "../assets/Manas_Parasar_CV.pdf";
 import { motion } from "framer-motion";
 import {
   Award,
@@ -7,7 +7,7 @@ import {
   BookOpen,
   Layers,
   Globe,
-  Activity,
+  Basketball,
   Heart,
   Handshake,
   Library,
@@ -82,7 +82,7 @@ export default function About() {
               <Globe size={16} /> Model UN Member
             </li>
             <li className="flex items-center gap-2">
-              <Activity size={16} /> Basketball Club Founder
+              <Basketball size={16} /> Basketball Club Founder
             </li>
             <li className="flex items-center gap-2">
               <Heart size={16} /> Red Cross Member
