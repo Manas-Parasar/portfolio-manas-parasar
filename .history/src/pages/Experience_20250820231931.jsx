@@ -8,9 +8,6 @@ export default function Experience() {
         title="Experience"
         subtitle="Clubs, roles, initiatives, and volunteering."
       >
-        <div className="mb-4 w-fit">
-          <span className="inline-block bg-brand-400/20 rounded-full px-3 py-1 text-sm font-semibold text-brand-400">500+ Community Service Hours</span>
-        </div>
         <div className="grid md:grid-cols-2 gap-6">
           <TimelineItem
             org="National Honor Society"
