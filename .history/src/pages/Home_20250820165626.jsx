@@ -1,7 +1,6 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 import ProjectCard from "../components/ProjectCard";
-import nhsLeaderboardScreenshot from "../assets/NHS Leaderboard Screenshot.png";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
             desc="Role-based React + Firebase app to manage hours, events, and year-end reporting."
             tags={["React", "Firebase", "Auth", "Firestore"]}
             link="https://github.com/Manas-Parasar/NHS-Service-Hours-Leaderboard"
-            img={nhsLeaderboardScreenshot}
           />
         </div>
       </Section>

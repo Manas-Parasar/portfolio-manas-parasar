@@ -1,15 +1,13 @@
 import ProjectCard from "../components/ProjectCard";
 import Section from "../components/Section";
-import nhsLeaderboardScreenshot from "../assets/NHS Leaderboard Screenshot.png";
 
 export default function Projects() {
   const items = [
     {
-      title: "NHS Leaderboard App",
+      title: "NHS Service Hours Leaderboard",
       desc: "Full-stack React + Firebase app with role-based dashboards, Google OAuth, and Firestore.",
       tags: ["React", "Firebase", "Auth", "UX"],
       link: "https://github.com/Manas-Parasar/NHS-Service-Hours-Leaderboard",
-      img: nhsLeaderboardScreenshot,
     },
   ];
 
@@ -26,7 +24,6 @@ export default function Projects() {
             desc={p.desc}
             tags={p.tags}
             link={p.link}
-            img={p.img}
           />
         ))}
       </div>

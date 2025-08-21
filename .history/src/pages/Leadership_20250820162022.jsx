@@ -24,10 +24,16 @@ export default function Leadership() {
               "Promoted academic integrity and character",
               "Encouraged personal growth and development",
               "Strengthened school spirit and pride",
-              "Enhanced communication and teamwork skills",
+              "Enhanced leadership and teamwork skills",
+              "Developed organizational and communication skills",
               "Created a positive and inclusive environment",
               "Promoted volunteerism and civic engagement",
+              "Supported school and community initiatives",
               "Encouraged collaboration and innovation",
+              "Fostered a sense of belonging and purpose",
+              "Encouraged lifelong learning and growth",
+              "Enhanced problem-solving and critical thinking skills",
+              "Developed time management and organizational skills",
               "Promoted ethical leadership and decision-making",
             ]}
           />
@@ -38,15 +44,6 @@ export default function Leadership() {
             points={[
               "Managed budgets and transparent reporting",
               "Ran fundraisers supporting school initiatives",
-              "Collaborated with student body and administration",
-              "Promoted student voice and representation",
-              "Organized events and activities",
-              "Fostered school spirit and community",
-              "Encouraged student engagement and participation",
-              "Developed financial literacy and responsibility",
-              "Enhanced leadership and teamwork skills",
-              "Strengthened relationships with peers and staff",
-              "Encouraged collaboration and innovation",
             ]}
           />
           <TimelineItem
@@ -83,18 +80,18 @@ export default function Leadership() {
             role="Computer Tutor, Trainer, Shelver"
             period="2022–Current"
             points={[
-              "Provided Technical support",
-              "Helped patrons navigate library systems",
-              "Trained new volunteers",
-              "Assisted with library operations and events",
-              "Supported library staff",
-              "Enhanced community engagement",
-              "Fostered a love for reading and learning",
-              "Promoted library resources",
-              "Supported literacy initiatives",
-              "Provided customer service",
-              "Assisted with cataloging and shelving",
-              "Maintained library organization",
+              "Technical support",
+              "Help patrons navigate library systems",
+              "Train new volunteers",
+              "Assist with library operations and events",
+              "Support library staff",
+              "Enhance community engagement",
+              "Foster a love for reading and learning",
+              "Promote library resources",
+              "Support literacy initiatives",
+              "Provide customer service",
+              "Assist with cataloging and shelving",
+              "Maintain library organization",
             ]}
           />
           <TimelineItem

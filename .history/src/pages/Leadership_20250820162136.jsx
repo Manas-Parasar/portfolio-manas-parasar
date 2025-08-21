@@ -28,6 +28,8 @@ export default function Leadership() {
               "Created a positive and inclusive environment",
               "Promoted volunteerism and civic engagement",
               "Encouraged collaboration and innovation",
+              "Fostered a sense of belonging and purpose",
+              "Encouraged lifelong learning and growth",
               "Promoted ethical leadership and decision-making",
             ]}
           />
@@ -38,15 +40,6 @@ export default function Leadership() {
             points={[
               "Managed budgets and transparent reporting",
               "Ran fundraisers supporting school initiatives",
-              "Collaborated with student body and administration",
-              "Promoted student voice and representation",
-              "Organized events and activities",
-              "Fostered school spirit and community",
-              "Encouraged student engagement and participation",
-              "Developed financial literacy and responsibility",
-              "Enhanced leadership and teamwork skills",
-              "Strengthened relationships with peers and staff",
-              "Encouraged collaboration and innovation",
             ]}
           />
           <TimelineItem

@@ -28,6 +28,8 @@ export default function Leadership() {
               "Created a positive and inclusive environment",
               "Promoted volunteerism and civic engagement",
               "Encouraged collaboration and innovation",
+              "Fostered a sense of belonging and purpose",
+              "Encouraged lifelong learning and growth",
               "Promoted ethical leadership and decision-making",
             ]}
           />

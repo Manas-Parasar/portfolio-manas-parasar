@@ -15,20 +15,11 @@ export default function Leadership() {
             period="2024–Current"
             points={[
               "Organized service events and tracking system",
-              "Introduced data-driven dashboard for service tracking",
+              "Introduced data-driven dashboard for hours",
               "Led officer team and community outreach",
               "Expanded service initiatives and impact",
               "Built lasting connections within the community",
               "Mentored new members in leadership and service",
-              "Fostered a culture of excellence and service",
-              "Promoted academic integrity and character",
-              "Encouraged personal growth and development",
-              "Strengthened school spirit and pride",
-              "Enhanced communication and teamwork skills",
-              "Created a positive and inclusive environment",
-              "Promoted volunteerism and civic engagement",
-              "Encouraged collaboration and innovation",
-              "Promoted ethical leadership and decision-making",
             ]}
           />
           <TimelineItem
@@ -38,15 +29,6 @@ export default function Leadership() {
             points={[
               "Managed budgets and transparent reporting",
               "Ran fundraisers supporting school initiatives",
-              "Collaborated with student body and administration",
-              "Promoted student voice and representation",
-              "Organized events and activities",
-              "Fostered school spirit and community",
-              "Encouraged student engagement and participation",
-              "Developed financial literacy and responsibility",
-              "Enhanced leadership and teamwork skills",
-              "Strengthened relationships with peers and staff",
-              "Encouraged collaboration and innovation",
             ]}
           />
           <TimelineItem
@@ -83,18 +65,18 @@ export default function Leadership() {
             role="Computer Tutor, Trainer, Shelver"
             period="2022–Current"
             points={[
-              "Provided Technical support",
-              "Helped patrons navigate library systems",
-              "Trained new volunteers",
-              "Assisted with library operations and events",
-              "Supported library staff",
-              "Enhanced community engagement",
-              "Fostered a love for reading and learning",
-              "Promoted library resources",
-              "Supported literacy initiatives",
-              "Provided customer service",
-              "Assisted with cataloging and shelving",
-              "Maintained library organization",
+              "Technical support",
+              "Help patrons navigate library systems",
+              "Train new volunteers",
+              "Assist with library operations and events",
+              "Support library staff",
+              "Enhance community engagement",
+              "Foster a love for reading and learning",
+              "Promote library resources",
+              "Support literacy initiatives",
+              "Provide customer service",
+              "Assist with cataloging and shelving",
+              "Maintain library organization",
             ]}
           />
           <TimelineItem
