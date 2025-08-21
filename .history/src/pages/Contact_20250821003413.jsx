@@ -36,14 +36,14 @@ export default function Contact() {
           href="https://github.com/"
           target="_blank"
         >
-          GitHub - Manas Parasar
+          https://github.com/Manas-Parasar
         </a>
         <a
           className="glass rounded-3xl p-6 hover:shadow-glow transition"
-          href="https://www.linkedin.com/in/manas-parasar-60188037b/?trk=PROFILE_DROP_DOWN"
+          href="https://linkedin.com/in/"
           target="_blank"
         >
-          LinkedIn - Manas Parasar
+          https://www.linkedin.com/in/manas-parasar-60188037b/?trk=PROFILE_DROP_DOWN
         </a>
       </div>
     </div>

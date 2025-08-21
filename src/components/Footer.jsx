@@ -14,7 +14,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/manas-parasar-60188037b/?trk=PROFILE_DROP_DOWN"
             target="_blank"
             className="hover:text-brand-400"
           >
