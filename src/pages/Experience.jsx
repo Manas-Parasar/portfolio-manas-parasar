@@ -1,17 +1,17 @@
 import { TimelineItem } from "../components/TimelineItem";
 import Section from "../components/Section";
 
-export default function Leadership() {
+export default function Experience() {
   return (
     <>
       <Section
-        title="Leadership & Service"
+        title="Experiencec"
         subtitle="Clubs, roles, initiatives, and volunteering."
       >
         <div className="grid md:grid-cols-2 gap-6">
           <TimelineItem
             org="National Honor Society"
-            role="President / Vice President"
+            role="President, Vice President"
             period="2024–Current"
             points={[
               "Organized service events and tracking system",
@@ -28,7 +28,7 @@ export default function Leadership() {
               "Created a positive and inclusive environment",
               "Promoted volunteerism and civic engagement",
               "Encouraged collaboration and innovation",
-              "Promoted ethical leadership and decision-making",
+              "Fostered a sense of belonging and community",
             ]}
           />
           <TimelineItem
@@ -51,7 +51,7 @@ export default function Leadership() {
           />
           <TimelineItem
             org="Engineering Club"
-            role="President / Historian"
+            role="President, Historian"
             period="2024–Current"
             points={[
               "Hosted building days",
@@ -109,6 +109,41 @@ export default function Leadership() {
               "Built relationships with students and staff",
               "Learned classroom dynamics",
               "Enhanced problem-solving abilities",
+            ]}
+          />
+          <TimelineItem
+            org="Debate Club/Model UN"
+            role="Member"
+            period="2024–Current"
+            points={[
+              "Participated in debates and discussions",
+              "Developed public speaking and critical thinking skills",
+              "Engaged in research and analysis of global issues",
+              "Collaborated with peers on resolutions",
+              "Enhanced understanding of international relations",
+              "Fostered teamwork and negotiation skills",
+              "Promoted civic engagement and awareness",
+              "Encouraged respectful discourse and dialogue",
+              "Strengthened communication and persuasion abilities",
+              "Encouraged empathy and open-mindedness",
+              "Fostered a sense of global citizenship",
+            ]}
+          />
+          <TimelineItem
+            org="Red Cross / IHL YAC (International Humanitarian Law Youth Advisory Committee) "
+            role="Member"
+            period="2023–2024"
+            points={[
+              "Engaged in humanitarian initiatives",
+              "Promoted awareness of international humanitarian law",
+              "Participated in community service projects",
+              "Collaborated with peers on advocacy efforts",
+              "Enhanced understanding of human rights issues",
+              "Encouraged empathy and compassion",
+              "Promoted peace and conflict resolution",
+              "Engaged in educational outreach and awareness campaigns",
+              "Encouraged personal growth and development",
+              "Promoted ethical leadership and decision-making",
             ]}
           />
         </div>

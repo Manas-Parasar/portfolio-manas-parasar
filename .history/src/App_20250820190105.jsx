@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
+import Leadership from "./pages/Experience";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 
