@@ -1,5 +1,5 @@
 import MyPortrait from "../assets/MyPortrait.png";
-const MyCV = "#"; // TODO: Replace with actual CV import when available
+import MyResume from "../assets/Manas Parasar Resume.pdf";
 import { motion } from "framer-motion";
 import {
   Award,
@@ -31,11 +31,11 @@ export default function About() {
         <h2 className="text-2xl font-bold mt-4">Manas Parasar</h2>
         <p className="subtle">Leader • Developer • Problem-solver</p>
         <a
-          href={MyCV}
-          download="Manas_Parasar_CV.pdf"
+          href={MyResume}
+          download="Manas_Parasar_Resume.pdf"
           className="mt-4 inline-block bg-brand-500 hover:bg-brand-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
         >
-          Download CV
+          Download Resume
         </a>
       </motion.div>
 
