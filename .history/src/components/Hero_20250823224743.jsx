@@ -10,7 +10,8 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="headline"
         >
-          Building a better tomorrow with code.
+          Building a better tomorrow things with code, leadership, and
+          scholarship.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -18,8 +19,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="mt-4 text-lg subtle max-w-3xl"
         >
-          I’m Manas Parasar, a passionate leader, developer, and scholar.
-          Explore projects, leadership, and experience shaped by impact.
+          I’m Manas Parasar, a passionate leader, developer, and problem‑solver.
+          Explore projects, leadership, and research shaped by impact.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

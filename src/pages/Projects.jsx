@@ -16,6 +16,8 @@ export default function Projects() {
         "Auth",
         "UX",
         "Git",
+        "Node.js",
+        "JavaScript",
       ],
       link: "https://github.com/Manas-Parasar/NHS-Service-Hours-Leaderboard",
       img: nhsLeaderboardScreenshot,

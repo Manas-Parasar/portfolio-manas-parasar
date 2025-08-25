@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -9,6 +10,12 @@ import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 
 export default function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div className="min-h-screen flex flex-col bg-grid-sheer bg-grid-sheer bg-[length:40px_40px] overflow-hidden">
       <div className="absolute inset-0 -z-10 opacity-70" aria-hidden>
@@ -18,6 +25,7 @@ export default function App() {
       <main className="container py-10 flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />

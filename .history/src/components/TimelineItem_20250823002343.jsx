@@ -11,7 +11,7 @@ export function TimelineItem({ org, role, period, points = [] }) {
         </span>
       </div>
       {points?.length > 0 && (
-        <ul className="list-disc list-inside mt-5 text-sm subtle space-y-8">
+        <ul className="list-disc list-inside mt-3 text-sm subtle space-y-4">
           {points.map((p, i) => (
             <li key={i}>{p}</li>
           ))}

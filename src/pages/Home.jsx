@@ -13,7 +13,7 @@ export default function Home() {
         title="Featured Projects"
         subtitle="A few highlights, see the full list on the Projects page."
         cta={
-          <a href="/projects" className="btn-primary">
+          <a href="#/projects" className="btn-primary">
             See all
           </a>
         }
@@ -48,18 +48,22 @@ export default function Home() {
               desc: "Prototyped devices, mentored members, and ran build nights.",
             },
           ].map((c) => (
-            <a
+            <div
               key={c.title}
-              href="/leadership"
-              className="glass rounded-3xl p-5 block hover:shadow-glow transition"
+              className="glass rounded-3xl p-5 block"
             >
               {c.title === "NHS President" && <FaAward className="text-4xl mb-2 text-yellow-500" />}
               {c.title === "Library Computer Tutor" && <FaLaptopCode className="text-4xl mb-2 text-blue-500" />}
               {c.title === "Engineering Club President" && <FaTools className="text-4xl mb-2 text-gray-500" />}
               <h3 className="font-semibold">{c.title}</h3>
               <p className="subtle text-sm mt-1">{c.desc}</p>
-            </a>
+            </div>
           ))}
+        </div>
+        <div className="text-center mt-8">
+          <a href="#/experience" className="btn-primary">
+            View More
+          </a>
         </div>
       </Section>
     </>

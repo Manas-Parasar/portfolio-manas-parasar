@@ -1,0 +1,20 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[forms]
+  # Enable form processing for the 'contact' form
+  # This ensures Netlify detects and processes the form submissions
+  # even when submitted via JavaScript.
+  # The 'name' attribute of your form in Contact.jsx should match 'contact'.
+  # The 'action' attribute in your form should be '/'.
+  # The 'data-netlify="true"' attribute should be present on your form.
+  # The hidden input field <input type="hidden" name="form-name" value="contact" />
+  # should also be present.
+  # For AJAX submissions, ensure your fetch request targets '/'.
+  # For email notifications, ensure your Netlify site settings have the correct email configured.
+  name = "contact"
+  # You can optionally specify a success page here, e.g., success_page = "/thank-you"
+  # However, since we are handling the success message on the same page with React,
+  # this is not strictly necessary unless you want a fallback redirect.
