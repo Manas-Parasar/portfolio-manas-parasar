@@ -67,31 +67,30 @@ export default function About() {
           <h3 className="font-semibold mb-2">Leadership & Service</h3>
           <ul className="subtle space-y-2">
             <li className="flex items-center gap-2">
-              <Award size={16} /> NHS: Vice President & President
+              <Library size={16} /> Library: Coding Club Founder/Instructor,
+              Computer Tutor, Trainer, Shelver
+            </li>
+            <li className="flex items-center gap-2">
+              <Award size={16} /> NHS: President, Vice-President
+            </li>
+            <li className="flex items-center gap-2">
+              <BookOpen size={16} /> Engineering Club: President, Historian
+            </li>
+            <li className="flex items-center gap-2">
+              <Handshake size={16} /> Educational Volunteer: Tutor, Teacher
+              Assistant
             </li>
             <li className="flex items-center gap-2">
               <Users size={16} /> Student Government: Treasurer
             </li>
             <li className="flex items-center gap-2">
-              <BookOpen size={16} /> Engineering Club: Historian & President
+              <Globe size={16} /> Debate Club/Model UN: Member
             </li>
             <li className="flex items-center gap-2">
-              <Layers size={16} /> Debate Club Member
+              <Activity size={16} /> Basketball Club: Founder
             </li>
             <li className="flex items-center gap-2">
-              <Globe size={16} /> Model UN Member
-            </li>
-            <li className="flex items-center gap-2">
-              <Activity size={16} /> Basketball Club Founder
-            </li>
-            <li className="flex items-center gap-2">
-              <Heart size={16} /> Red Cross Member
-            </li>
-            <li className="flex items-center gap-2">
-              <Handshake size={16} /> Volunteer: Teacher's Assistant
-            </li>
-            <li className="flex items-center gap-2">
-              <Library size={16} /> Library: Shelver, Trainer, Computer Tutor
+              <Heart size={16} /> Red Cross: Member
             </li>
           </ul>
         </motion.div>

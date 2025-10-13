@@ -2,7 +2,8 @@ import Hero from "../components/Hero";
 import Section from "../components/Section";
 import ProjectCard from "../components/ProjectCard";
 import nhsLeaderboardScreenshot from "../assets/NHS Leaderboard Screenshot.png";
-import { FaAward, FaLaptopCode, FaTools } from 'react-icons/fa';
+import soccerSquadShowdownScreenshot from "../assets/Soccer Squad Showdown Screenshot.png";
+import { FaAward, FaLaptopCode, FaTools } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -22,9 +23,16 @@ export default function Home() {
           <ProjectCard
             title="NHS Service Hours Leaderboard"
             desc="Role-based React + Firebase app to manage hours, events, and year-end reporting."
-            tags={["React", "Firebase", "Auth", "Firestore"]}
+            tags={["React", "Firebase", "Auth", "Firestore", "Tailwind"]}
             link="https://github.com/Manas-Parasar/NHS-Service-Hours-Leaderboard"
             img={nhsLeaderboardScreenshot}
+          />
+          <ProjectCard
+            title="Soccer Squad Showdown"
+            desc="Full-stack soccer management game with Java simulation engine, Node.js API, and MongoDB for team building and match simulation."
+            tags={["Java", "Node.js", "MongoDB", "Bootstrap", "REST API"]}
+            link="https://github.com/Manas-Parasar/Soccer-Squad-Showdown"
+            img={soccerSquadShowdownScreenshot}
           />
         </div>
       </Section>
@@ -48,13 +56,16 @@ export default function Home() {
               desc: "Prototyped devices, mentored members, and ran build nights.",
             },
           ].map((c) => (
-            <div
-              key={c.title}
-              className="glass rounded-3xl p-5 block"
-            >
-              {c.title === "NHS President" && <FaAward className="text-4xl mb-2 text-yellow-500" />}
-              {c.title === "Library Computer Tutor" && <FaLaptopCode className="text-4xl mb-2 text-blue-500" />}
-              {c.title === "Engineering Club President" && <FaTools className="text-4xl mb-2 text-gray-500" />}
+            <div key={c.title} className="glass rounded-3xl p-5 block">
+              {c.title === "NHS President" && (
+                <FaAward className="text-4xl mb-2 text-yellow-500" />
+              )}
+              {c.title === "Library Computer Tutor" && (
+                <FaLaptopCode className="text-4xl mb-2 text-blue-500" />
+              )}
+              {c.title === "Engineering Club President" && (
+                <FaTools className="text-4xl mb-2 text-gray-500" />
+              )}
               <h3 className="font-semibold">{c.title}</h3>
               <p className="subtle text-sm mt-1">{c.desc}</p>
             </div>
