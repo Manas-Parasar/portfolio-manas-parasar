@@ -14,6 +14,10 @@ import {
   SiNodedotjs,
   SiTypescript,
   SiExpress,
+  SiMongodb,
+  SiBootstrap,
+  SiVite,
+  SiEslint,
 } from "react-icons/si";
 import React from "react";
 
@@ -82,10 +86,13 @@ export default function Education() {
           <li>Introduction to Web APIs Certification (LinkedIn Learning)</li>
           <li>President’s Honor Roll (Paradise Valley Community College)</li>
           <li>
-            4.0 Honor Roll (3x - Arizona Agribusiness & Equine Center - Paradise
+            4.0 Honor Roll (3x, Arizona Agribusiness & Equine Center - Paradise
             Valley)
           </li>
-          <li>Excellence in Science (2024 - 2025)</li>
+          <li>
+            Excellence in Science (2024 - 2025, Arizona Agribusiness & Equine
+            Center - Paradise Valley)
+          </li>
         </ul>
       </div>
       <div className="glass rounded-3xl p-6 hover:shadow-glow transition">

@@ -14,6 +14,10 @@ import {
   SiNodedotjs,
   SiTypescript,
   SiExpress,
+  SiMongodb,
+  SiBootstrap,
+  SiVite,
+  SiEslint,
 } from "react-icons/si";
 import React from "react";
 
@@ -23,6 +27,7 @@ const skills = [
   { name: "Python", icon: <SiPython />, color: "text-yellow-500" },
   { name: "Firebase", icon: <SiFirebase />, color: "text-yellow-400" },
   { name: "Tailwind", icon: <SiTailwindcss />, color: "text-teal-500" },
+  { name: "Bootstrap", icon: <SiBootstrap />, color: "text-purple-500" },
   { name: "GitHub", icon: <SiGithub />, color: "text-gray-400" },
   { name: "Git", icon: <SiGit />, color: "text-orange-600" },
   { name: "HTML", icon: <SiHtml5 />, color: "text-orange-500" },
@@ -33,6 +38,9 @@ const skills = [
   { name: "C++", icon: <SiCplusplus />, color: "text-blue-700" },
   { name: "Express.js", icon: <SiExpress />, color: "text-gray-400" },
   { name: "Node.js", icon: <SiNodedotjs />, color: "text-green-500" },
+  { name: "MongoDB", icon: <SiMongodb />, color: "text-green-600" },
+  { name: "Vite", icon: <SiVite />, color: "text-yellow-400" },
+  { name: "ESLint", icon: <SiEslint />, color: "text-purple-400" },
   { name: "Visual Studio", icon: <DiVisualstudio />, color: "text-blue-500" },
 ];
 
