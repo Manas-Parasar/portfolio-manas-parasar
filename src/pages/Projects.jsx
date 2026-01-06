@@ -2,6 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import Section from "../components/Section";
 import nhsLeaderboardScreenshot from "../assets/NHS Leaderboard Screenshot.png";
 import soccerSquadShowdownScreenshot from "../assets/Soccer Squad Showdown Screenshot.png";
+import knowledgeNetworkScreenshot from "../assets/The Knowledge Network Screenshot.png";
 
 export default function Projects() {
   const items = [
@@ -52,6 +53,13 @@ export default function Projects() {
       ],
       link: "https://github.com/Manas-Parasar/Soccer-Squad-Showdown",
       img: soccerSquadShowdownScreenshot,
+    },
+    {
+      title: "The Knowledge Network Website",
+      desc: "The Knowledge Network is a comprehensive web platform designed to create an educational ecosystem that connects students, teachers, and communities. Built with React and Firebase, it enables collaboration for academic excellence and personal growth. Key features include school management and exploration, event organization and participation, donation tracking and support, sponsorship management, tutoring services, volunteer signups, resource sharing, and user profiles. The platform includes an extensive admin dashboard for managing schools, events, users, donations, sponsors, slots, clubs, website content, and year-based operations. It incorporates modern web technologies for a responsive, animated interface with real-time data synchronization via Firebase, user authentication, and role-based access control. Notable aspects include its focus on community building, innovation in education, and support for student success through various interactive modules.",
+      tags: ["React", "Firebase", "Vite", "Tailwind CSS", "Framer Motion", "React Router DOM", "React Quill", "React Hot Toast", "@uiw/react-md-editor", "Turndown", "ESLint"],
+      link: "https://github.com/Manas-Parasar/The-Knowledge-Network",
+      img: knowledgeNetworkScreenshot,
     },
   ];
 
