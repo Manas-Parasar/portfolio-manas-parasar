@@ -17,7 +17,7 @@ export default function App() {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-grid-sheer bg-grid-sheer bg-[length:40px_40px] overflow-hidden">
+    <div className="min-h-screen flex flex-col bg-grid-sheer bg-grid-sheer bg-[length:40px_40px] overflow-y-auto">
       <div className="absolute inset-0 -z-10 opacity-70" aria-hidden>
         <div className="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-brand-500 blur-[120px] opacity-30 animate-float" />
       </div>
